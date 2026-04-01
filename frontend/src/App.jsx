@@ -9,7 +9,7 @@ function App() {
   const fetchApps = async () => {
     try {
       const res = await fetch('http://localhost:5000/applications');
-      const data = await res.join();
+      const data = await res.json();
       setApps(data);
     } catch (err) { console.error("Erreur serveur", err); }
   };
@@ -70,7 +70,7 @@ function App() {
       <section>
         <h2 style={{marginBottom: '20px'}}>Candidatures reçues ({apps.length})</h2>
 
-        <div className="application-grid">
+        <div className="applications-grid">
           {apps.map(a => (
             <div key={a.id} className={`app-card ${a.role}`}>
               <div className="card-header">

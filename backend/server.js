@@ -10,7 +10,7 @@ let applications = [];
 const calculateScore = (data) => {
     let score = 0;
     if (data.motivation && data.motivation.length > 50) score += 1;
-    if (data.portfolio && data.portfolio.includes('https')) score += 1;
+    if (data.portfolio && data.portfolio.length > 5) score += 1;
     if (data.email && data.email.includes('@')) score +=1;
     return score;
 }

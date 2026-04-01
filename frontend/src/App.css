@@ -26,6 +26,10 @@ body {
   margin-bottom: 40px;
 }
 
+.card-section h2 {
+  color: #aaa;
+}
+
 .form-grid {
   display: grid;
   gap: 15px;
