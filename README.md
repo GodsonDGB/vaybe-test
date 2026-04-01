@@ -10,7 +10,7 @@ Application Fullstack de gestion de candidatures réalisée en 4h.
 
 ## Installation
 
-1. Cloner le projet : `git clone [lien-du-repo]`
+1. Cloner le projet : `git clone https://github.com/GodsonDGB/vaybe-test.git`
 2. **Backend :** - `cd backend`
    - `npm install`
    - `node server.js` (Lancement sur le port 5000)
