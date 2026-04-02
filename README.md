@@ -1,6 +1,6 @@
 # Test Technique - Vaybe
 
-Application Fullstack de gestion de candidatures réalisée en 4h.
+Application Fullstack de gestion de candidatures.
 
 ## Stack Utilisée
 
